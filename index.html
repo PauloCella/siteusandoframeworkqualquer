@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My site</title>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
+
+    <title>Ju Lee escritórios de Coworking</title>
+
+
+    <style type="text/css">
+        #video>.content {
+            width: 100%;
+            text-align: center;
+            position: absolute;
+            transform: translateY(-50%);
+            text-transform: uppercase;
+            top: 50%;
+        }
+
+        #video>.content {
+            font-size: 4em;
+            font-weight: 700;
+            letter-spacing: .05em;
+            color: #fff;
+            text-shadow: 0.1em 0.1em 0.2em black
+        }
+
+        .carousel-inner {
+            max-height: 20em;
+        }
+
+        #missao {
+            margin: 40px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            font-size: 4em;
+            font-weight: 700;
+            letter-spacing: .05em;
+            color: rgb(72, 71, 71);
+            text-shadow: 0.1em 0.1em 0.2em black
+        }
+
+        #contentBodyFlex{
+            display: flex;
+            justify-content: center;
+        }
+
+        #contentBody {
+            max-width: 1000px;
+        }
+
+
+
+        @media screen and (max-width: 1024px) {
+            #video>.content {
+                font-size: 0.75em;
+                text-transform: uppercase;
+                letter-spacing: .05em;
+                color: fff;
+                margin-top: -21em;
+                text-shadow: 0.1em 0.1em 0.2em black
+            }
+        }
+
+
+        @media screen and (max-width: 400px) {
+            #video>.content {
+                font-size: 0.75em;
+                text-transform: uppercase;
+                letter-spacing: .05em;
+                color: fff;
+                margin-top: -30em;
+                text-shadow: 0.1em 0.1em 0.2em black
+            }
+
+
+            .carousel-inner {
+                max-height: 315px;
+            }
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="#">Ju Lee</a>
+
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Left links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Propósito</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nossos espaços</a>
+                    </li>
+                    <!-- Navbar dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-mdb-toggle="dropdown" aria-expanded="false">
+                            Sobre nós
+                        </a>
+                        <!-- Dropdown menu -->
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">História</a></li>
+                            <li><a class="dropdown-item" href="#">Motivação</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- Left links -->
+
+
+            </div>
+            <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+
+    <div id="contentBodyFlex">
+        <div id="contentBody">
+            <section id="video">
+                <video id="media" width="100%" height="auto" autoplay="" loop="">
+                    <source src="https://www.acate.com.br/wp-content/themes/labbo/assets/videos/1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="content">
+                    <h1>
+                        <span>A gente cria</span> <span> e ajuda você a criar</span> <span> que o mundo precisa.</span>
+                    </h1>
+                    <p>Ju Lee <span>Coworking</span> </p>
+                </div>
+            </section>
+
+
+            <section id="missao">
+                <h1>Nossa missão é te ajudar a ser o protagonista de sua história</h1>
+            </section>
+
+
+            <section>
+                <!-- Carousel wrapper -->
+                <div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+                    <!-- Indicators -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="3"
+                            aria-label="Slide 4"></button>
+                    </div>
+
+                    <!-- Inner -->
+                    <div class="carousel-inner">
+                        <!-- Single item -->
+                        <div class="carousel-item active">
+                            <img src="https://i.pinimg.com/originals/81/ed/37/81ed3704b761c695380307558e1dd6ac.jpg"
+                                class="d-block w-100" alt="..." />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            </div>
+                        </div>
+
+                        <!-- Single item -->
+                        <div class="carousel-item">
+                            <img src="https://www.calcada.com.br/Handler/Imagem.ashx?w=990&h=800&m=Prop&i=283"
+                                class="d-block w-100" alt="..." />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+
+                        <!-- Single item -->
+                        <div class="carousel-item">
+                            <img src="https://catracalivre.com.br/wp-content/uploads/2015/09/selgas.png"
+                                class="d-block w-100" alt="..." />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            </div>
+                        </div>
+
+                        <!-- Single item -->
+                        <div class="carousel-item">
+                            <img src="https://i.pinimg.com/originals/a6/d0/e1/a6d0e1dd9eda56f6b5945405d3faeb64.jpg"
+                                class="d-block w-100" alt="..." />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Para quem gosta de aventura</h5>
+                                <p>Lugares altamente discretos e isolados para vc trabalhar confortavelemnte ao som da
+                                    natureza com internet Starlink</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Inner -->
+
+                    <!-- Controls -->
+                    <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample"
+                        data-mdb-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample"
+                        data-mdb-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!-- Carousel wrapper -->
+
+            </section>
+        </div>
+    </div>
+
+
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script>
+
+
+</body>
+
+</html>
