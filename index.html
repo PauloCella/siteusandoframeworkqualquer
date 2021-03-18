@@ -83,8 +83,9 @@
 
         /* Contato */
 
-        .contato {
+        #contato {
             margin-top: 100px;
+            margin: 10px;
             justify-content: center;
             display: flex;
         }
@@ -93,7 +94,7 @@
 
         .footer {
             margin-top: 100px;
-            height: 100px;
+            padding: 20px;
             background-color: #46443c;
             color: white;
             text-align: center;
@@ -114,12 +115,7 @@
 
         @media screen and (max-width: 400px) {
             #video>.content {
-                font-size: 0.75em;
-                text-transform: uppercase;
-                letter-spacing: .05em;
-                color: fff;
-                margin-top: -30em;
-                text-shadow: 0.1em 0.1em 0.2em black
+                display: none;
             }
         }
     </style>
@@ -147,23 +143,12 @@
                 <!-- Left links -->
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#missao">Propósito</a>
+                        <a class="nav-link active" aria-current="page" href="#missao">Missao</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Nossos espaços</a>
+                        <a class="nav-link" href="#contato">Contato</a>
                     </li>
-                    <!-- Navbar dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-mdb-toggle="dropdown" aria-expanded="false">
-                            Sobre nós
-                        </a>
-                        <!-- Dropdown menu -->
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">História</a></li>
-                            <li><a class="dropdown-item" href="#">Motivação</a></li>
-                        </ul>
-                    </li>
+                   
                 </ul>
                 <!-- Left links -->
 
@@ -273,7 +258,7 @@
     </section>
 
 
-    <div class="contato">
+    <div id="contato">
 
         <form>
             <!-- Name input -->
@@ -310,7 +295,7 @@
 
 
     <footer class="footer navbar-fixed-bottom">
-        <p>This site was depveloped by Paulo Cella using MDBostrap 🍕🍕🍕</p>
+        <p>This site was depveloped by Paulo Cella using MDBostrap 🍕🍕🍕  </p>
         <a href="https://goo.gl/maps/gWAyaAQseDBdztwn8" target="_blank"> Me pague uma pizza aqui </a>
 
     </footer>
